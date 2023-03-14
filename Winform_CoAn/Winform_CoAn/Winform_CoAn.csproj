@@ -7,4 +7,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="GUI Layer\" />
+    <Folder Include="BLL Layer\" />
+    <Folder Include="DAO Layer\" />
+    <Folder Include="SQL Data\" />
+  </ItemGroup>
+
 </Project>
