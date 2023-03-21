@@ -1,0 +1,27 @@
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\GUI Layer\FormQuanLi.baml
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\GUI Layer\FormLogIn.g.cs
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\GUI Layer\FormQuanLi.g.cs
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn_MarkupCompile.cache
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn_MarkupCompile.lref
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\bin\Debug\net6.0-windows\Winform_CoAn.exe
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\bin\Debug\net6.0-windows\Winform_CoAn.deps.json
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\bin\Debug\net6.0-windows\Winform_CoAn.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\bin\Debug\net6.0-windows\Winform_CoAn.dll
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\bin\Debug\net6.0-windows\Winform_CoAn.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\GUI Layer\FormDangKi.g.cs
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\GUI Layer\FormDangKi.baml
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\GUI Layer\FormLogIn.baml
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.g.resources
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.dll
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\refint\Winform_CoAn.dll
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\Winform_CoAn.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\obj\Debug\net6.0-windows\ref\Winform_CoAn.dll

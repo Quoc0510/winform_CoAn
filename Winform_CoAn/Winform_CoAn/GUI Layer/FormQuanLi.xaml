@@ -1,0 +1,117 @@
+﻿<Window x:Class="Winform_CoAn.GUI_Layer.FormQuanLi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="FormQuanLi" Height="529" Width="917">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Height="55" VerticalAlignment="Top" Width="917" Background="#FF110644">
+            <Label Content="Welcome!!" Height="44" Width="108" FontWeight="Bold" FontSize="18" HorizontalAlignment="Left" Foreground="#FFE9DDDD"/>
+        </StackPanel>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="53" Margin="861,2,0,0" VerticalAlignment="Top" Width="56" Background="#FF8F5555"/>
+        <Image HorizontalAlignment="Left" Height="45" Margin="808,5,0,0" VerticalAlignment="Top" Width="48" Source="/GUI Layer/png-transparent-computer-icons-user-profile-avatar-heroes-silhouette-avatar-thumbnail.png" Stretch="Fill"/>
+        <Label Content="Quản Lí" HorizontalAlignment="Left" Height="40" Margin="726,11,0,0" VerticalAlignment="Top" Width="77" FontSize="16" FontWeight="Bold" Foreground="#FFEBDEDE"/>
+        <TabControl HorizontalAlignment="Left" Margin="25,60,0,0" VerticalAlignment="Top" Width="864" Height="404">
+            <TabItem Header="Trang Chủ" Margin="-2,-3,-39,-2" FontSize="20" FontWeight="Bold" BorderBrush="#FFA19595">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FFF7EDED" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="White" Margin="0,0,-1,-2">
+                    <StackPanel HorizontalAlignment="Left" Height="134" Margin="133,29,0,0" VerticalAlignment="Top" Width="267" Background="#FFD6CA5C">
+                        <Label Content="Dự Án" Height="35" Width="75" HorizontalAlignment="Left" FontStyle="Italic" FontFamily="Bauhaus 93"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Height="134" Margin="505,29,0,0" VerticalAlignment="Top" Width="266" Background="#FF58E2B5">
+                        <Label Content="Nhân Viên" Height="38" Width="110" FontStyle="Italic" HorizontalAlignment="Left" FontFamily="Bauhaus 93"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Height="134" Margin="75,193,0,0" VerticalAlignment="Top" Width="267" Background="#FFB46BA2">
+                        <Label Content="Task" Height="41" Width="90" HorizontalAlignment="Left" FontFamily="Bauhaus 93"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Height="134" Margin="449,193,0,0" VerticalAlignment="Top" Width="267" Background="#FFBE8E6E">
+                        <Label Content="Lịch Công Việc" Height="38" Width="148" HorizontalAlignment="Left" FontFamily="Bauhaus 93"/>
+                    </StackPanel>
+                    <Image HorizontalAlignment="Left" Height="36" Margin="348,37,0,0" VerticalAlignment="Top" Width="42" Source="/GUI Layer/download (1).jpg" Stretch="Fill"/>
+                    <Image HorizontalAlignment="Left" Height="36" Margin="716,37,0,0" VerticalAlignment="Top" Width="42" Source="/GUI Layer/user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg" Stretch="Fill"/>
+                    <Image HorizontalAlignment="Left" Height="35" Margin="293,203,0,0" VerticalAlignment="Top" Width="40" Source="/GUI Layer/download.png" Stretch="Fill"/>
+                    <Image HorizontalAlignment="Left" Height="35" Margin="666,203,0,0" VerticalAlignment="Top" Width="39" Source="/GUI Layer/images (3).png" Stretch="Fill"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản Lí Nhân Viên" Margin="37,-4,-37,-2" FontSize="20" FontWeight="Bold" BorderBrush="#FF9E9898">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FFF0E7E7" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FF79C6A2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="121*"/>
+                        <ColumnDefinition Width="723*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="138" VerticalAlignment="Top" Width="858" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,35,0,0"/>
+                    <ListBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="107" Margin="0,213,0,0" VerticalAlignment="Top" Width="491" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Label Content="Danh Sách Nhân Viên" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="169" FontSize="15" FontStyle="Italic"/>
+                    <Button Grid.Column="1" Content="Sa Thải" HorizontalAlignment="Left" Height="41" Margin="392,279,0,0" VerticalAlignment="Top" Width="109" FontSize="16"/>
+                    <Label Content="Nhân Viên" HorizontalAlignment="Left" Height="33" Margin="5,178,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontStyle="Italic"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản Lí Dự Án" Margin="38,1,-48,0" FontSize="20" FontWeight="Bold" Height="50" VerticalAlignment="Top" BorderBrush="#FF9A8E8E">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FFEEE4E4" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FFE0DBBA">
+                    <DataGrid HorizontalAlignment="Left" Height="298" VerticalAlignment="Top" Width="412" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,48,0,0"/>
+                    <ListBox HorizontalAlignment="Left" Height="95" Margin="456,48,0,0" VerticalAlignment="Top" Width="318" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Label Content="Danh Sách Dự Án" HorizontalAlignment="Left" Height="33" Margin="10,10,0,0" VerticalAlignment="Top" Width="196" FontStyle="Italic"/>
+                    <Label Content="Dự Án" HorizontalAlignment="Left" Height="33" Margin="456,16,0,0" VerticalAlignment="Top" Width="142" FontSize="14" FontStyle="Italic"/>
+                    <Label Content="Thêm mới dự án:" HorizontalAlignment="Left" Height="60" Margin="433,232,0,0" VerticalAlignment="Top" Width="216" Foreground="#FFA93838" FontSize="24"/>
+                    <Button Content="Thêm" HorizontalAlignment="Left" Height="33" Margin="649,238,0,0" VerticalAlignment="Top" Width="139" Foreground="#FFF3EAEA" Background="#FF91E6E6" FontStyle="Italic"/>
+                    <Button Content="Chi Tiết" HorizontalAlignment="Left" Height="37" Margin="456,160,0,0" VerticalAlignment="Top" Width="142" FontStyle="Italic" FontWeight="Bold" Foreground="#FFF9EFEF" Background="#FF8EE6E0"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản Lí Chấm Công" Margin="47,-5,-51,-2" FontSize="20" FontWeight="Bold" BorderBrush="#FF958E8E">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FFF1E9E9" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FFF07D7D" Margin="0,0,5,-9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="173*"/>
+                        <ColumnDefinition Width="249*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="199" VerticalAlignment="Top" Width="853" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Label Content="Nhân Viên" HorizontalAlignment="Left" Height="35" Margin="24,199,0,0" VerticalAlignment="Top" Width="105" FontStyle="Italic" FontWeight="Bold" FontSize="17"/>
+                    <ListBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="116" Margin="24,239,0,0" VerticalAlignment="Top" Width="472" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Button Grid.Column="1" Content="Chi Tiết" HorizontalAlignment="Left" Height="48" Margin="165,273,0,0" VerticalAlignment="Top" Width="118" FontStyle="Italic" FontWeight="Bold" Background="#FF86D3ED" Foreground="#FFF6EFEF"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Quản Lí Lương" Margin="51,-9,-67,-3" FontSize="20" FontWeight="Bold" BorderBrush="#FF989292">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FFF0EFEB" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FFE0E887">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="269*"/>
+                        <ColumnDefinition Width="575*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="348" VerticalAlignment="Center" Width="413" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Label Grid.Column="1" Content="Nhân Viên" HorizontalAlignment="Left" Height="33" Margin="197,10,0,0" VerticalAlignment="Top" Width="123" FontStyle="Italic"/>
+                    <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="125" Margin="197,48,0,0" VerticalAlignment="Top" Width="299" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Button Grid.Column="1" Content="Chi Tiết" HorizontalAlignment="Left" Height="32" Margin="406,190,0,0" VerticalAlignment="Top" Width="90" FontStyle="Italic" Background="#FF8FBCD6" Foreground="#FFF4E5E5"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Content="Đăng Xuất" HorizontalAlignment="Left" Height="34" Margin="764,469,0,0" VerticalAlignment="Top" Width="125" FontSize="14" FontWeight="Bold" FontStyle="Italic" Background="#FFAE6565" Foreground="#FFF1EBEB"/>
+    </Grid>
+</Window>

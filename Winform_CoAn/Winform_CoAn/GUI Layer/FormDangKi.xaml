@@ -1,0 +1,30 @@
+﻿<Window x:Class="Winform_CoAn.GUI_Layer.FormDangKi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Winform_CoAn.GUI_Layer"
+        mc:Ignorable="d"
+        Title="FormDangKi" Height="450" Width="800">
+    <Grid Background="#FFA6B8E0">
+        <Grid HorizontalAlignment="Left" Height="335" VerticalAlignment="Top" Width="350" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Margin="394,63,0,0">
+            <Label Content="Họ Và Tên:" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" VerticalAlignment="Top" Width="89" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
+            <Label Content="Ngày Sinh:" HorizontalAlignment="Left" Height="35" Margin="10,65,0,0" VerticalAlignment="Top" Width="89" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+            <Label Content="Số Điện Thoại:" HorizontalAlignment="Left" Height="35" Margin="-1,118,0,0" VerticalAlignment="Top" Width="111" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+            <Label Content="Tài Khoản:" HorizontalAlignment="Left" Height="35" Margin="10,170,0,0" VerticalAlignment="Top" Width="89" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+            <Label Content="Mật Khẩu:" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="89" FontSize="14" FontWeight="Bold" FontStyle="Italic" Margin="10,232,0,0" RenderTransformOrigin="0.512,1.085"/>
+            <TextBox HorizontalAlignment="Left" Height="35" Margin="116,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+            <TextBox HorizontalAlignment="Left" Height="34" Margin="116,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+            <TextBox HorizontalAlignment="Left" Height="36" Margin="116,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+            <TextBox HorizontalAlignment="Left" Height="35" Margin="116,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+            <TextBox HorizontalAlignment="Left" Height="35" Margin="116,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+            <Label Content="Công Việc:" HorizontalAlignment="Left" Height="34" Margin="10,292,0,0" VerticalAlignment="Top" Width="89" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
+            <TextBox HorizontalAlignment="Left" Height="35" Margin="116,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        </Grid>
+        <Label Content="Vui lòng điền thông tin vào đây!!" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="744" FontSize="20" FontWeight="Bold" FontStyle="Italic" Background="#FF5C2673" Foreground="#FFE2D4E0"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="36" Margin="744,0,0,0" VerticalAlignment="Top" Width="56" FontSize="14" FontWeight="Bold" Background="#FFE91B1B" Foreground="#FFF9F4F4"/>
+        <Button Content="Đăng Kí" HorizontalAlignment="Left" Height="27" Margin="505,403,0,0" VerticalAlignment="Top" Width="180" FontStyle="Italic" FontWeight="Bold" Background="#FF83C2B2" Foreground="#FF17131A"/>
+        <Image HorizontalAlignment="Left" Height="335" Margin="10,63,0,0" VerticalAlignment="Top" Width="384" Source="/GUI Layer/sang-tao-trong-cong-viec-1.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>

@@ -7,6 +7,44 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="GUI Layer\FormChiTietDuAn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI Layer\FormDangKi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI Layer\FormLoGin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI Layer\FormQuanLi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI Layer\FormThemDuAn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI Layer\FormThemTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="GUI Layer\FormChiTietDuAn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI Layer\FormDangKi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI Layer\FormLogIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI Layer\FormQuanLi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI Layer\FormThemDuAn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI Layer\FormThemTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

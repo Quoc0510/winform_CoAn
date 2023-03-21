@@ -1,0 +1,22 @@
+﻿<Window x:Class="Winform_CoAn.GUI_Layer.FormChiTietChamCong"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Winform_CoAn.GUI_Layer"
+        mc:Ignorable="d"
+        Title="FormChiTietChamCong" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Height="52" VerticalAlignment="Top" Width="800" Background="#FF1A1A54"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="46" Margin="747,3,0,0" VerticalAlignment="Top" Width="53" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
+        <Grid HorizontalAlignment="Left" Height="382" Margin="0,52,0,0" VerticalAlignment="Top" Width="359" Background="#FFD0D1C4">
+            <Label Content="Tên :" HorizontalAlignment="Left" Height="27" Margin="10,129,0,0" VerticalAlignment="Top" Width="71" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+            <Label Content="Chức Vụ :" HorizontalAlignment="Left" Height="31" Margin="0,191,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="138,79,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="189" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="101,138,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="189" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Height="30" Margin="101,194,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="189" FontSize="16"/>
+        </Grid>
+        <Label Content="ID Nhân Viên :" HorizontalAlignment="Left" Height="30" Margin="10,129,0,0" VerticalAlignment="Top" Width="124" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <DataGrid HorizontalAlignment="Left" Height="380" Margin="359,54,0,0" VerticalAlignment="Top" Width="441" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    </Grid>
+</Window>

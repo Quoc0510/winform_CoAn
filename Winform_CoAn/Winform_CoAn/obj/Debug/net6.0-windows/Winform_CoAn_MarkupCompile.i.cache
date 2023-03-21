@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\ASUS\OneDrive\Máy tính\Winform_CoAn\Winform_CoAn\Winform_CoAn\App.xaml
-11407045341
+9-707263958
 
-5380845339
-194-1951243044
-MainWindow.xaml;
+30102719416
+194-1617825143
+GUI Layer\FormChiTietChamCong.xaml;GUI Layer\FormChiTietDuAn.xaml;GUI Layer\FormChiTietLuong.xaml;GUI Layer\FormDangKi.xaml;GUI Layer\FormLogIn.xaml;GUI Layer\FormQuanLi.xaml;GUI Layer\FormThemDuAn.xaml;GUI Layer\FormThemTask.xaml;MainWindow.xaml;
 
-False
+True
 

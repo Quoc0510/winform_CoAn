@@ -1,0 +1,30 @@
+﻿<Window x:Class="Winform_CoAn.GUI_Layer.FormChiTietDuAn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Winform_CoAn.GUI_Layer"
+        mc:Ignorable="d"
+        Title="FormChiTietDuAn" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Height="53" VerticalAlignment="Top" Width="800" Background="#FF14154A"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="53" Margin="744,0,0,0" VerticalAlignment="Top" Width="56" Background="#FFE85353" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Chi Tiết Dự Án" HorizontalAlignment="Left" Height="43" Margin="0,5,0,0" VerticalAlignment="Top" Width="167" FontSize="22" Foreground="#FFF0E6E6" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="ID :" HorizontalAlignment="Left" Height="37" Margin="23,75,0,0" VerticalAlignment="Top" Width="59" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Tên Dự Án :" HorizontalAlignment="Left" Height="43
+               " Margin="23,131,0,0" VerticalAlignment="Top" Width="119" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Trạng Thái :" HorizontalAlignment="Left" Height="43
+               " Margin="23,190,0,0" VerticalAlignment="Top" Width="119" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Người Quản Lí :" HorizontalAlignment="Left" Height="42" Margin="23,255,0,0" VerticalAlignment="Top" Width="158" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Task :" HorizontalAlignment="Left" Height="37" Margin="27,323,0,0" VerticalAlignment="Top" Width="79" FontSize="20" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="102,75,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="264" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="147,131,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="264" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="147,190,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="264" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="186,255,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="225" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="111,323,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="264" FontSize="20"/>
+        <DataGrid HorizontalAlignment="Left" Height="201" Margin="416,75,0,0" VerticalAlignment="Top" Width="374" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Content="Thêm Task" HorizontalAlignment="Left" Height="38" Margin="534,297,0,0" VerticalAlignment="Top" Width="138" FontSize="16" FontWeight="Bold" Background="#FFC25252" Foreground="#FFF6E8E8"/>
+        <Button Content="Cập nhật dự án" HorizontalAlignment="Left" Height="46" Margin="298,378,0,0" VerticalAlignment="Top" Width="238" FontSize="24" FontWeight="Bold" FontStyle="Italic" Background="#FFB53535" Foreground="#FFFAEEEE"/>
+
+    </Grid>
+</Window>

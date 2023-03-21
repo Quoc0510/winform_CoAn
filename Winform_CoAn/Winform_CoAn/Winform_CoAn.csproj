@@ -8,10 +8,36 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="GUI Layer\" />
-    <Folder Include="BLL Layer\" />
+    <None Remove="GUI Layer\background-dep-nen-hong.jpg" />
+    <None Remove="GUI Layer\download %281%29.jpg" />
+    <None Remove="GUI Layer\download.png" />
+    <None Remove="GUI Layer\images %281%29.jpg" />
+    <None Remove="GUI Layer\images %282%29.png" />
+    <None Remove="GUI Layer\images %283%29.png" />
+    <None Remove="GUI Layer\kisspng-padlock-computer-icons-clip-art-lockup-5b305371edf493.6452660415298937459747.jpg" />
+    <None Remove="GUI Layer\png-transparent-computer-icons-user-profile-avatar-heroes-silhouette-avatar-thumbnail.png" />
+    <None Remove="GUI Layer\sang-tao-trong-cong-viec-1.jpg" />
+    <None Remove="GUI Layer\user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg" />
+    <None Remove="GUI Layer\user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DAO Layer\" />
     <Folder Include="SQL Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="GUI Layer\background-dep-nen-hong.jpg" />
+    <Resource Include="GUI Layer\download (1).jpg" />
+    <Resource Include="GUI Layer\download.png" />
+    <Resource Include="GUI Layer\images (1).jpg" />
+    <Resource Include="GUI Layer\images (2).png" />
+    <Resource Include="GUI Layer\images (3).png" />
+    <Resource Include="GUI Layer\kisspng-padlock-computer-icons-clip-art-lockup-5b305371edf493.6452660415298937459747.jpg" />
+    <Resource Include="GUI Layer\png-transparent-computer-icons-user-profile-avatar-heroes-silhouette-avatar-thumbnail.png" />
+    <Resource Include="GUI Layer\sang-tao-trong-cong-viec-1.jpg" />
+    <Resource Include="GUI Layer\user-icon-in-trendy-flat-style-isolated-on-grey-background-user-symbol-for-your-web-site-design-logo-app-ui-illustration-eps10-free-vector.jpg" />
+    <Resource Include="GUI Layer\user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" />
   </ItemGroup>
 
 </Project>

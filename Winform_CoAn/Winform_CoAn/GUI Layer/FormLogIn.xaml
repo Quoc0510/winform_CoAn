@@ -1,0 +1,23 @@
+﻿<Window x:Class="Winform_CoAn.GUI_Layer.FormLoGin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Winform_CoAn.GUI_Layer"
+        mc:Ignorable="d"
+        Title="FormLoGin" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="400,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Background="#FFE5DBDB" FontSize="20" BorderBrush="White"/>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="400,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="302" Background="#FFE0D6D6" BorderBrush="#FFF7F7F7"/>
+        <Label Content="USERNAME" HorizontalAlignment="Left" Height="41" Margin="246,114,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="PASSWORD" HorizontalAlignment="Left" Height="44" Margin="246,203,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="Log In" HorizontalAlignment="Left" Height="40" Margin="400,268,0,0" VerticalAlignment="Top" Width="302" Background="#FF52C1EE" FontSize="18" FontWeight="Bold" FontFamily="Arial" FontStretch="SemiCondensed" FontStyle="Normal" Foreground="#FFF7F2F2" BorderBrush="#FFF4EEEE" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="38" Margin="246,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" Text="Login to your account" FontSize="26" FlowDirection="LeftToRight" FontWeight="Black" FontStyle="Oblique" Foreground="#FF46BEEE"/>
+        <Image HorizontalAlignment="Left" Height="213" Margin="38,75,0,0" VerticalAlignment="Top" Width="203" Source="/GUI Layer/images (2).png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="346,111,0,0" VerticalAlignment="Top" Width="49" Source="/GUI Layer/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="44" Margin="346,198,0,0" VerticalAlignment="Top" Width="49" Source="/GUI Layer/kisspng-padlock-computer-icons-clip-art-lockup-5b305371edf493.6452660415298937459747.jpg" Stretch="Fill"/>
+        <Button Content="SignUp now" HorizontalAlignment="Left" Height="39" Margin="551,331,0,0" VerticalAlignment="Top" Width="151" Background="#FF27C8BC" FontSize="16" Foreground="#FF222626" FontStyle="Italic"/>
+        <Label Content="Create an account" HorizontalAlignment="Left" Height="39" Margin="366,331,0,0" VerticalAlignment="Top" Width="180" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
